@@ -1,0 +1,76 @@
+/* Estructura GRID responsive de la tarjeta detalle */
+
+.cartCardDetail--container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(660px, 1fr));
+	grid-gap: 1rem;
+	justify-items: center;
+	padding: 1rem;
+	width: max(660px, 80%);
+}
+
+.cartCardDetail {
+	display: flex;
+	flex-direction: row;
+	color: #fff7ef;
+	background-color: #6f756b;
+	width: 720px;
+	height: 380px;
+	border-radius: 20px;
+	box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+	margin: 10px;
+	padding: 20px;
+	justify-content: space-between;
+}
+
+.cartCardDetail-content {
+	border-radius: 10px;
+	width: 340px;
+	height: 360px;
+	padding: 0px 10px 0px 10px;
+	text-align: left;
+}
+
+.cartCardDetail__image {
+	width: 340px;
+	height: 340px;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 10px;
+	background-position: center center;
+}
+
+.cartCardDetail-content__title {
+	font-weight: 700;
+	text-decoration: none;
+	padding: 2px 0 2px 0;
+}
+
+.cartCardDetail-content__category {
+	color: #f88a02;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 2px 0 2px 0;
+}
+
+.cartCardDetail-content__body {
+	font-size: 0.8rem;
+	padding: 20px 0 20px 0;
+}
+
+.cartCardDetail-content__priceQty {
+	font-size: 1.5rem;
+	font-weight: 700;
+	padding: 5px 0 5px 0;
+	text-align: right;
+}
+
+.cartCardDetail--Total {
+	color: #fff7ef;
+	background-color: #6f756b;
+	width: 660px;
+	height: auto;
+	padding: 10px;
+	justify-content: flex-end;
+}
+

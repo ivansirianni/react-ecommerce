@@ -1,0 +1,14 @@
+.items-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url("https://media.istockphoto.com/id/1330484866/es/foto/render-3d-fondo-abstracto-con-luz-de-ne%C3%B3n-de-colores-iluminaci%C3%B3n-del-espect%C3%A1culo-l%C3%A1ser-del.jpg?b=1&s=170667a&w=0&k=20&c=C9AdM4HUUplO42BZqQgp6Z4ha6BJubhRo0Jm7oY8gQ0=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home-container{
+    
+}
